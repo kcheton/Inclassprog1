@@ -1,0 +1,110 @@
+/* General style of page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: lightgrey;
+}
+
+/*parent Container styling parameters*/
+.product-card {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  width: 800px;
+  height: 500px;
+  margin: 120px; /*set separation of top of parent container from top of browser window*/
+}
+
+/* Left column shoe picture styling */
+.left-img-col img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+/* Right column styling (text and details) */
+.right-info-col {
+  padding: 20px;
+  flex: 1; /* the size of all other elements will have the same width as their content but flex: 1 will have the remaining full space given to itself*/
+}
+
+.right-info-col h3 {
+  font-size: 32px;
+  margin: 0;
+}
+
+.right-info-col h5 {
+  font-size: 14px;
+  color: #bbb;
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+.right-info-col p {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 15px 0;
+  padding: 50px ;
+}
+
+/* Styling for "available colors" semantic tag */
+.available-colors {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.available-colors span {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+/* Color circle to the right of available colors styling */
+.black-color-container,
+.red-color-container,
+.white-color-container {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+}
+
+.black-color-container {
+  background-color: black;
+}
+
+.red-color-container {
+  background-color: red;
+}
+
+.white-color-container {
+  background-color: beige;
+}
+
+/* Price and button meta styling */
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .price h4 {
+    font-size: 32px;
+    color: black;
+  }
+  
+  .buy-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .buy-btn:hover {
+    background-color: lightgrey;
+  }
