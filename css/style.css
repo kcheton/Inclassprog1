@@ -82,7 +82,8 @@ body {
   background-color: beige;
 }
 
-/* Price and button meta styling */
+/* Price and button meta styling
+*/
 .price {
     display: flex;
     align-items: center;
