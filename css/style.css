@@ -67,7 +67,7 @@ body {
 .available-colors span {
   font-size: 14px;
   margin-right: 10px;
-  color: white;
+  color: black;
 }
 
 /* Color circle to the right of available colors styling */
@@ -99,7 +99,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 15px;
   }
   
   .price h4 {
