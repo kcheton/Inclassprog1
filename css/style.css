@@ -31,13 +31,13 @@ body {
 .right-info-col {
   padding: 20px;
   width: 50%;
-  color: white;
+  color: black;
   flex: 1; /* the size of all other elements will have the same width as their content but flex: 1 will have the remaining full space given to itself*/
 }
 /* heading 3 */
 .right-info-col h3 {
   font-size: 32px;
-  color: white;
+  color: black;
   margin-bottom: 15px;    
 }
 /* heading 5 */
@@ -54,7 +54,7 @@ body {
   margin: 15px 0;
   padding: 50px ;
   color: black; 
-  
+
 }
 
 /* Styling for "available colors" semantic tag */
