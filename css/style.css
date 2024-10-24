@@ -98,7 +98,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-bottom: 20px;
   }
   
   .price h4 {
@@ -106,7 +106,7 @@ body {
     color: black;
     margin-bottom: 20px;
   }
-
+/*buy button customization*/
   .buy-btn {
     background-color: black;
     color: white;
