@@ -42,7 +42,7 @@ body {
 }
 /* heading 5 */
 .right-info-col h5 {
-  font-size: 14px;
+  font-size: 32px;
   color: beige;
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -53,6 +53,8 @@ body {
   line-height: 1.5;
   margin: 15px 0;
   padding: 50px ;
+  color: black; 
+  
 }
 
 /* Styling for "available colors" semantic tag */
